@@ -1,0 +1,84 @@
+.button {
+    display: flex;
+    overflow: hidden; 
+    height: 2rem;
+    width: 3rem;
+
+    padding: 12px 12px;
+  
+    cursor: pointer;
+    user-select: none;
+    transition: all 150ms linear;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none !important;
+    text-transform: none;
+    text-transform: capitalize;
+  
+    color: #fff;
+    border: 0 none;
+    border-radius: 2rem;
+  
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: -20px;
+  
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+   
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 2px 5px 10px var(--color-smoke);
+}
+
+.button:hover {
+    transition: all 150ms linear;
+
+    opacity: .85;
+   
+  }
+
+  .button:focus {
+    outline: 1px dotted #959595;
+    outline-offset: -4px;
+  }
+
+  .button.-regular {
+    color: #202129;
+    background-color: #f2f2f2;
+  }
+
+  .button.-regular:hover{
+    color: #202129;
+    background-color: #e1e2e2;
+    opacity: 1;
+  }
+
+  .button.-regular:active{
+    background-color: #d5d6d6;
+    opacity: 1;
+  }
+
+  .btn-atras{
+    margin-right: 0.5rem;
+  }
+
+  .btn-sig{
+    margin-left: 0.5rem;
+  }
+
+  .p-icons{
+    margin: 0;
+  }
+
+  #icon:hover{
+    color: rgb(1,180,228);
+  }
+
+  .input-pag{
+    width: 3rem;
+    text-align: center;
+    margin-right: 0.5rem;
+  }

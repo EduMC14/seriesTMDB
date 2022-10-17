@@ -1,0 +1,142 @@
+.sec-info{
+    width: 100%;
+    color: whitesmoke;
+    box-sizing: border-box;
+    
+}
+.box-info-flex{
+  display: flex;
+}
+
+.img-poster{
+    width: 100%;
+    height: 25rem;
+    border-radius: 0.5rem;
+}
+
+.sec-info{
+    
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    background: rgb(3,37,65);
+    background-image: linear-gradient(
+        115deg,
+        rgba(3, 37, 65, 0.9),
+        rgb(1,180,228)
+      ),
+      url('../assets/collage-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+  }
+  .box-img{
+    margin: 1rem 0 1rem 1rem;
+  }
+
+  .box-info{
+    width: 80vw;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.5rem;
+  }
+  .box-genres{
+    margin-bottom: 1rem;
+  }
+
+  .box-icons{
+    display: flex;
+    width: 30rem;
+    align-items: center;
+  }
+
+  .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(7,35,65, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.4rem;
+
+  }
+  
+  .box-overview{
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .box-casting {
+    width: 85%;
+    margin: 3.5rem auto;
+  }
+  .title-repar{
+    margin-bottom: 2rem;
+    color: black;
+  }
+
+  .carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: visible;
+    height: 20rem;
+  }
+
+  .carrusel::-webkit-scrollbar{
+    height: 0.5rem;
+    background-color:  rgba(7,35,65) ;
+    border-radius: 0.5rem;
+    
+  }
+
+  .carrusel::-webkit-scrollbar-thumb{
+    background-color: rgba(1,180,228, 0.6) ;
+    border-radius: 0.5rem;
+  }
+
+  .box-cast{
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    flex: 1 0 auto;
+    margin: 0.4rem 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    -webkit-box-shadow: -1px 1px 10px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 1px 10px 0px rgba(0,0,0,0.58);
+    box-shadow: -1px 1px 10px 0px rgba(0,0,0,0.58);
+  }
+
+  .img-cast{
+    width: 100%;
+    height: 12rem;
+    border-radius: 0.5rem ;
+  }
+
+  .box-cast:hover{
+    -webkit-box-shadow: 0px -1px 9px -2px rgba(1,180,228,1);
+-moz-box-shadow: 0px -1px 9px -2px rgba(1,180,228,1);
+box-shadow: 0px -1px 9px -2px rgba(1,180,228,1);
+  }
+
+  .box-character{
+    width: 10rem;
+    padding: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+   
+  .link-cast{
+    text-decoration: none;
+  }
+  
+  

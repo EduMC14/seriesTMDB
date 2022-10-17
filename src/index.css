@@ -1,0 +1,40 @@
+body{
+   font-size: 16px;
+   box-sizing: border-box;
+}
+
+.img-star{
+    width: 8rem;
+}
+
+#title-nav{
+    font-size: 25px;
+}
+ .link-home, .link-generos{
+    font-size: 1.1rem;
+ }
+ 
+ .box-nav{
+    background-color:#032541;
+ }
+
+ .title-serie:hover{
+    color: rgb(1,180,228);
+    cursor: pointer;
+ }
+
+ .box-title-pag{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .box-pag{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+ }
+
+ .card{
+    cursor: pointer;
+    height: 45vh;
+ }
