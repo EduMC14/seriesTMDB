@@ -14,7 +14,7 @@ const Routers = () => {
       <NavBar />
       <Routes>
         <Route path='/' element={<SeriesPopulares />} />
-        <Route path='/mejorValoradas/' element={<MejorValoradas />} />
+        <Route path='/mejorValoradas' element={<MejorValoradas />} />
         <Route path='/busqueda/:busqueda' element={<BusquedaSeries />} />
         <Route path='/infoSeries/:idSerie' element={<InfoSeries />} />
         <Route path='/infoCast/:idCast' element={<InfoCast />} />

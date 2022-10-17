@@ -1,5 +1,5 @@
 
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useRef } from 'react'
 import tmdb from '../assets/tmdb.svg'
 
@@ -24,7 +24,7 @@ const NavBar = ({ setQue }) => {
               <a className='nav-link dropdown-toggle' data-bs-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>Categorias</a>
               <div className='dropdown-menu'>
                 <a className='dropdown-item' href='/'>Populares</a>
-                <a className='dropdown-item' href='/mejorValoradas/'>Mejor Valoradas</a>
+                <Link to='/MejorValoradas' className='text-body text-decoration-none'><a className='dropdown-item' href='/mejorValoradas/'>Mejor Valoradas</a></Link>
               </div>
             </li>
           </ul>
