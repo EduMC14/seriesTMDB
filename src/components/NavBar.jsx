@@ -6,7 +6,8 @@ import tmdb from '../assets/tmdb.svg'
 const NavBar = ({ setQue }) => {
   const input = useRef()
   const navigate = useNavigate()
-  const buscarSeries = () => {
+  const buscarSeries = (e) => {
+    e.preventDefault()
     navigate(`/busqueda/${input.current.value}`)
     setQue(input.current.value)
   }
@@ -33,7 +34,7 @@ const NavBar = ({ setQue }) => {
         <form className='d-flex'>
           <input className='form-control me-sm-2' type='text' placeholder='Search' ref={input} />
           Nav
-          <button className='btn btn-secondary my-2 my-sm-0' onClick={buscarSeries} type=''>Search</button>
+          <button className='btn btn-secondary my-2 my-sm-0' onClick={buscarSeries}>Search</button>
         </form>
       </div>
     </nav>
