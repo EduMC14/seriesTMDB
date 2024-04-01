@@ -7,13 +7,16 @@ import SeriesPopulares from './pages/SeriesPopulares'
 
 function App () {
   const [query, setQuery] = useState('')
+  console.log(setQuery)
+  console.log(query)
+  console.log('hola')
   return (
     <div className='App'>
       <header>
-        <NavBar setQue={setQuery} />
+        <NavBar setQuery={setQuery} query={query} />
       </header>
       <SeriesPopulares />
-      <BusquedaSeries query1={query} />
+      <BusquedaSeries query={query} />
       <InfoSeries />
     </div>
   )

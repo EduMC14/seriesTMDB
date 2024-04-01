@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-closing-tag-location */
 
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
@@ -41,7 +42,7 @@ const InfoCast = () => {
             <h3>Series en las que ha participado</h3>
             <CarruselParti series={castSerie.cast} url={urlImg} />
           </div>
-          </div>}
+        </div>}
     </section>
 
   )

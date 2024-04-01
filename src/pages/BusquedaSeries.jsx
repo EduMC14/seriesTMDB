@@ -1,10 +1,12 @@
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import Cargando from '../components/Cargando'
 import Card from '../components/Card'
+import { RouterContext } from '../router'
 
-const BusquedaSeries = ({ query1 }) => {
+const BusquedaSeries = () => {
+  const BUSQUESERIES = useContext(RouterContext)
   const { busqueda } = useParams()
   const [busSeries, setBusSeries] = useState([])
   const [loading1, setLoading1] = useState(true)
@@ -21,7 +23,7 @@ const BusquedaSeries = ({ query1 }) => {
       }
     }
     searchSerie()
-  }, [query1])
+  }, [BUSQUESERIES.query])
   return (
     <section className='container py-4'>
       <div className='box-title-pag'>

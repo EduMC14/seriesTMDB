@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 
 import { useNavigate } from 'react-router-dom'
 
