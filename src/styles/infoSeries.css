@@ -82,6 +82,7 @@
 
   .carrusel{
     display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
     overflow: scroll;
     overflow-y: visible;
@@ -102,6 +103,7 @@
 
   .box-cast{
     width: 10rem;
+    max-width: 200px;
     display: flex;
     flex-wrap: wrap;
     color: black;
